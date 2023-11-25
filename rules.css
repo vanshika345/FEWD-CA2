@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Lobster&family=Pixelify+Sans&family=Poppins:ital,wght@0,300;0,400;1,500&family=Press+Start+2P&family=Roboto:ital,wght@1,100&family=Ubuntu&family=VT323&display=swap');
+
+body{
+    background:rgba(0, 0,0, 0.6)url(https://i.pinimg.com/originals/a8/05/4b/a8054bd49daa169530dcb99b0c606a66.gif);
+    /* background-blend-mode: darken; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    
+}
+img{
+  height: 12vh; 
+  cursor: pointer;
+}
+h1{
+    position: relative;
+    left: 38%;
+    margin-top: 5%;
+    font-size: 19vh;
+}
+
+ol{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2vh;
+    font-size: 5vh;
+    line-height: 7vh;
+    font-weight: bold;
+   
+}
+*{
+    font-family: VT323;
+}
+
+@media screen and (max-width: 380px) and (max-height: 830px){
+    img{
+        height: 7vh; 
+        cursor: pointer;
+      }
+      h1{
+        font-size: 5vh;
+      }
+      ol{
+        font-size: 3vh;
+        line-height: 9vh;
+
+      }
+}

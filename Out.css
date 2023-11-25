@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Dancing+Script&family=Lilita+One&family=Pixelify+Sans&family=Playpen+Sans&family=Prompt&display=swap');
+
+
+
+body {
+    background-image: url(./assets/Screenshot\ 2023-11-24\ 222119.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 40vh;
+    line-height: 2vh;
+    font-family:Black Ops One;
+}
+
+h1{
+    font-size: 10vh;
+}
+
+h3{
+    font-size: 4vh;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.retry, .home{
+
+    margin-top: 1vh;
+    margin: 0.8vh;
+    padding: 1vh 2vh;
+    font-size: 3vh;
+    width: 10vw;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    border: none;
+    border-radius: 1vh;
+    box-shadow: 0.8vh 0.8vh 0.8vh rgb(12, 12, 12);
+    font-family: VT323;
+    background-color: rgb(238, 58, 58);
+    color: black;
+    font-family:Black Ops One;
+    
+}
+
+.retry:hover{
+    background-color: rgb(10, 10, 10); 
+    color: rgb(236, 232, 232);
+    cursor: pointer;
+
+}
+.home:hover{
+    background-color: rgb(10, 10, 10); 
+    color: rgb(236, 232, 232);
+    cursor: pointer;
+
+}
+
+@media screen and (min-width: 1919px) and (min-height: 1079px) {
+    body {
+      background-image: url(https://i.pinimg.com/564x/08/b9/76/08b976d15823c9706dee03f47e8d171c.jpg);
+    }
+    h1{
+        font-size: 15vh;
+        margin-top: 4vh;
+    }
+    h3{
+        font-size: 6vh;
+    }
+    .retry, .home{
+        background-color: darkred
+    }
+  }
+
+/*   
+  @media screen and (min-width: 350) and (min-height: 800px) {
+    body {
+     
+      
+    
+    }
+    h1{
+        font-size: 15vh;
+        margin-top: 4vh;
+    }
+    h3{
+        font-size: 6vh;
+    }
+    .retry, .home{
+        background-color: darkred
+    }
+  } */

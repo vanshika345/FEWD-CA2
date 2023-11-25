@@ -1,0 +1,35 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 0;
+    background-image: url(https://i.pinimg.com/564x/41/d2/86/41d286c9d852acc05ebe5c1c148bad7f.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+   
+}
+
+#board{
+    height: 80vh;
+    width: 70vw;
+    background-image: url("./assets/parralaxBackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+@media screen and (max-width: 380px) and (max-height: 820px){
+body{
+    overflow: hidden;
+    width: 2vw;
+}
+#board{
+    height: 10px;
+    width: 0.1px;
+}
+}
